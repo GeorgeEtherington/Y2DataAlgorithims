@@ -11,23 +11,32 @@ public class CleverSearcher extends Searcher {
     public int findElement() throws IndexingError {
         int[] largeArray = getArray();
         int k = getIndex();
-        if (k<= 0 || k > array.length ) {
+        if (k<= 0 || k > largeArray.length ) {
             throw new IndexingError();
         }
 
-        int[] smallArray = new int[k];
-       //add copyOf instead of for loop
-        for (int index =0; index < k; index++){
-            smallArray[index] = largeArray[index];
-        }
+        int[] smallArray = Arrays.copyOf(largeArray, k);
+
         Arrays.sort(smallArray);
+
         for (int index = k; index < largeArray.length; index++){
-            if (smallArray[0] > largeArray[index]){
+
+            if (smallArray[0] < largeArray[index]){
                 smallArray[0] = largeArray[index];
-                //make more efficient, use a while loop something like while x < y swap and keep going
-                Arrays.sort(smallArray);
+                boolean largest = true;
+                for (int i =0; (i < smallArray.length-1) && (largest); i++){
+                    if (smallArray[i] > smallArray[i+1]){
+                        int hold = smallArray[i+1];
+                        smallArray[i+1] = smallArray[i];
+                        smallArray[i] = hold;
+                    }else{
+                        largest = false;
+                    }
+                }
+
             }
         }
-        return 0;
+
+        return smallArray[0];
     }
 }
