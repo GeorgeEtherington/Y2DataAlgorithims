@@ -6,14 +6,17 @@ public class SelectionSort<T extends Comparable<? super T>> implements ArraySort
 
         int arrayLength = array.length;
 
-        for (int i = 0; i > arrayLength - 1; i++ )
+        for (int i = 0; i < arrayLength - 1; i++ )
          {
            int minimum = i;
            for (int ii = i+1; ii <arrayLength; ii++){
-               if (array[ii].compareTo(array[minimum]) > 0){
-
+               if (array[ii].compareTo(array[minimum]) < 0){
+                   minimum = ii;
                }
            }
+           T holdVar = array[minimum];
+           array[minimum]= array[i];
+           array[i] = holdVar;
          }
 
         return array;
