@@ -11,10 +11,7 @@ public class SingleLinkList<T> extends BasicList<SingleLinkNode<T>,T> implements
      * @throws ListAccessError if there is no node with the given index.
      */
     SingleLinkNode<T> getNode(int index) throws ListAccessError {
-        // Is the list empty?  If so, cannot access the node.
-        if (isEmpty()) {
-            throw new ListAccessError("Cannot get node.  List is empty.");
-        }
+
         // Is the given index negative?  If so, this is an error.
         if (index < 0) {
             throw new ListAccessError("Cannot get node.  Negative index.");
@@ -31,10 +28,6 @@ public class SingleLinkList<T> extends BasicList<SingleLinkNode<T>,T> implements
             currentNode = currentNode.getNext(); // by gettting next node in the list
             index--; // and reducing index by one
         }
-        // Reached the end of the list (by hitting null node)?  If so, cannot access the required node.
-        if (currentNode == null) {
-            throw new ListAccessError("Cannot get node.  Not enough nodes in the list.");
-        }
         // Successfully found node by walking through until index was zero.
         return currentNode;
     }
@@ -45,6 +38,9 @@ public class SingleLinkList<T> extends BasicList<SingleLinkNode<T>,T> implements
             setRoot(currentNode);
         }else {
             SingleLinkNode<T> previousNode = getNode(index - 1);
+            if (previousNode == null){
+                throw new NullPointerException("The previous list is empty");
+            }
             previousNode.setNext(currentNode);
         }
 
@@ -56,10 +52,21 @@ public class SingleLinkList<T> extends BasicList<SingleLinkNode<T>,T> implements
      * @throws ListAccessError if there is no value with the given index.
      */
     public T get(int index) throws ListAccessError {
+        if(isEmpty()){
+            throw new ListAccessError("Cannot get node. No Node");
+        }
         return getNode(index).getValue();
     }
     public T remove(int index) throws ListAccessError{
-        return getNode(index).getValue();
+        if(isEmpty()){
+            throw new ListAccessError("Cannot get node. No Node");
+        }
+        T removedValue = getNode(index).getValue();
+
+        SingleLinkNode<T> previousNode = getNode(index -1);
+        SingleLinkNode<T> nextNode = getNode(index+1);
+        previousNode.setNext(nextNode);
+        return removedValue;
     }
 }
 
