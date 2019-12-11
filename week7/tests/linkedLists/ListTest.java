@@ -21,8 +21,10 @@ public SingleLinkList populate (Integer[] array) throws ListAccessError {
   @Test
    void testAdd() throws ListAccessError {
    populate(arrayInteger);
-   assertEquals(arrayInteger[1], linkedList.get(1));
-   assertEquals(arrayInteger[3], linkedList.get(3));
+      for (int i = 0; i < arrayInteger.length; i++){
+       assertEquals(arrayInteger[i], linkedList.get(i));
+      }
+
   }
 
   @Test
