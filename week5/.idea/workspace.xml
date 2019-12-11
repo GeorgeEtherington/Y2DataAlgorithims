@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce9072a-9b37-4257-9e99-cbb2c3cd585a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arraySorter/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/arraySorter/CharacterSelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/arraySorter/IntegerSelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/arraySorter/SelectionSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week7/src/linkedList/list/SingleLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week7/tests/linkedLists/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraySorter/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySorter/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1UkmGRUjpJ4em6I3LOgjp6shp9B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -211,7 +202,9 @@
       <option name="presentableId" value="Default" />
       <updated>1539877722307</updated>
       <workItem from="1575903220387" duration="3187000" />
-      <workItem from="1575908879272" duration="2774000" />
+      <workItem from="1575908879272" duration="3532000" />
+      <workItem from="1575989396009" duration="121000" />
+      <workItem from="1575990350395" duration="1020000" />
     </task>
     <servers />
   </component>
@@ -223,22 +216,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="229" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1575908937360" />
-    <state width="1202" height="2" key="GridCell.Tab.0.bottom" timestamp="1575910148791">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1575976809222">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575910148791" />
-    <state width="1202" height="2" key="GridCell.Tab.0.center" timestamp="1575910148791">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1575976809222" />
+    <state width="1202" height="2" key="GridCell.Tab.0.bottom" timestamp="1575976810964">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575910148791" />
-    <state width="1202" height="2" key="GridCell.Tab.0.left" timestamp="1575910148788">
+    <state width="1202" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575976810964" />
+    <state width="1202" height="2" key="GridCell.Tab.0.center" timestamp="1575976810964">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575910148788" />
-    <state width="1202" height="2" key="GridCell.Tab.0.right" timestamp="1575910148791">
+    <state width="1202" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575976810964" />
+    <state width="1202" height="2" key="GridCell.Tab.0.left" timestamp="1575976810964">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575910148791" />
+    <state width="1202" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575976810964" />
+    <state width="1202" height="2" key="GridCell.Tab.0.right" timestamp="1575976810964">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575976810964" />
     <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1575908882782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
