@@ -6,8 +6,8 @@ import linkedList.list.ListAccessError;
 import linkedList.list.SingleLinkList;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-public class ListTest{
 
+public class ListTest{
 IntegerArrayGenerator arrayGenerator = new IntegerArrayGenerator(new IntegerScope(0,20));
 Integer[] arrayInteger = arrayGenerator.getArray(20);
 SingleLinkList linkedList = new SingleLinkList();

@@ -2,6 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2095e93a-8482-4dc3-a5ef-accdb3d1f95f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../week1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/ArrayGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/ArrayGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/CleverRandomListingGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/CleverRandomListingGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/CleverRandomListingGeneratorTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/CleverRandomListingGeneratorTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/ListingGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/ListingGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/RandomListingGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/RandomListingGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/SimpleRandomListingGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/SimpleRandomListingGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/SimpleRandomListingGeneratorTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/SimpleRandomListingGeneratorTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/SortedListingGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/arrayGenerator/SortedListingGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/CleverSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/CleverSearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/CleverSearcherTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/CleverSearcherTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/IndexingError.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/IndexingError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/Searcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/SimpleSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/SimpleSearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/SimpleSearcherTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/SimpleSearcherTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/timer/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/timer/Timer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/ArrayGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/ArrayGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/CleverRandomListingGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/CleverRandomListingGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/ListingGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/ListingGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/SimpleRandomListingGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/SimpleRandomListingGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/SortedListingGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/arrayGenerator/SortedListingGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/searcher/CleverSearcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/searcher/CleverSearcherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/searcher/SearcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/searcher/SearcherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1/out/test/week1/searcher/SimpleSearcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/test/week1/searcher/SimpleSearcherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/week5/META-INF/week5.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../week7/tests/linkedLists/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week7/tests/linkedLists/ListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +49,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../week9" />
+  </component>
+  <component name="RunManager">
+    <configuration name="arraySorter in week5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraySorter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arraySorter" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.arraySorter in week5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -48,6 +96,8 @@
       <updated>1576084207862</updated>
       <workItem from="1576084209208" duration="118000" />
       <workItem from="1576090069852" duration="578000" />
+      <workItem from="1576515386236" duration="4789000" />
+      <workItem from="1579856080290" duration="45000" />
     </task>
     <servers />
   </component>
@@ -55,9 +105,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="254" key="FileChooserDialogImpl" timestamp="1576084324886">
+    <state x="551" y="254" key="FileChooserDialogImpl" timestamp="1579856122846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="254" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576084324886" />
+    <state x="551" y="254" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579856122846" />
+    <state width="795" height="774" key="GridCell.Tab.0.bottom" timestamp="1579856124388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="795" height="774" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579856124388" />
+    <state width="795" height="774" key="GridCell.Tab.0.center" timestamp="1579856124388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="795" height="774" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579856124388" />
+    <state width="795" height="774" key="GridCell.Tab.0.left" timestamp="1579856124388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="795" height="774" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579856124388" />
+    <state width="795" height="774" key="GridCell.Tab.0.right" timestamp="1579856124388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="795" height="774" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579856124388" />
   </component>
 </project>
