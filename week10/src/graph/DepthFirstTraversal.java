@@ -30,7 +30,7 @@ public class DepthFirstTraversal<T> extends AdjacencyGraph<T> implements Travers
      * I.e. check if the node is
      * <ul>
      *   <li> in the traversal, having actually been visited
-     *   <li> or in the to do list, and therefore scheduled to be visited
+     *   <li> or in the backlog and therefore scheduled to be visited
      * </ul>
      * @return this node has been visited, or is scheduled to be visited
      */
@@ -76,7 +76,7 @@ public class DepthFirstTraversal<T> extends AdjacencyGraph<T> implements Travers
         traversal.add(node); // add the node to the traversal
         for (T neighbour: getNeighbours(node)) { // for all this node's neighbours
             if (!visited(neighbour)) // if the neighbour hasn't been visited
-                backLog.add(neighbour); // add it to the end of the to do list
+                backLog.add(neighbour); // add it to the end of the backlog
         }
     }
 }
