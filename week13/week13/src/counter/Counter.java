@@ -223,7 +223,6 @@ public class Counter extends AbstractCounter {
          */
         startCount();
         while (!isCountFinished()) {
-            System.out.println("Test");
             stepCount();
         }
         endCount();

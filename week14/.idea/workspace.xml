@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b99032a-3c86-467f-a823-f42f5542fda2" name="Default" comment="" />
+    <list default="true" id="7b99032a-3c86-467f-a823-f42f5542fda2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../week13/week13/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week16/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/week13/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/week13/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/week13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/week13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/week13/src/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/week13/src/counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week16/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week16/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week16/src/resourceManager/ComplexResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week16/src/resourceManager/ComplexResourceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week16/src/resourceManager/ResourceSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week16/src/resourceManager/ResourceSystem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +33,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>java.lang.Process</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Process</replace>
-    </replaceStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XvucqV5UdrvBLmgTblFKhcuz9H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -137,6 +154,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -151,6 +180,12 @@
       <workItem from="1575983763221" duration="22000" />
       <workItem from="1575987096827" duration="2457000" />
       <workItem from="1581938975277" duration="2167000" />
+      <workItem from="1583149771072" duration="3222000" />
+      <workItem from="1583238107389" duration="3138000" />
+      <workItem from="1583335763914" duration="634000" />
+      <workItem from="1583404323389" duration="600000" />
+      <workItem from="1583406239191" duration="19000" />
+      <workItem from="1584290085981" duration="3323000" />
     </task>
     <servers />
   </component>
@@ -162,6 +197,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581938980319" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583149795662">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583149795662" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581939001663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -170,26 +209,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581938997559" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581938995468">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1583406255062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581938995468" />
-    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1581940192211">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583406255062" />
+    <state width="914" height="160" key="GridCell.Tab.0.bottom" timestamp="1584293801662">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581940192211" />
-    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1581940192211">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="160" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584293801662" />
+    <state width="914" height="160" key="GridCell.Tab.0.center" timestamp="1584293801662">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581940192211" />
-    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1581940192211">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="160" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584293801662" />
+    <state width="914" height="160" key="GridCell.Tab.0.left" timestamp="1584293801662">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581940192211" />
-    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1581940192211">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="914" height="160" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584293801662" />
+    <state width="914" height="160" key="GridCell.Tab.0.right" timestamp="1584293801662">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581940192211" />
+    <state width="914" height="160" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584293801662" />
     <state width="1877" height="210" key="GridCell.Tab.1.bottom" timestamp="1581940192063">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -206,6 +250,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="210" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581940192063" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1583149821544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583149821544" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1583150203412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583150203412" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/week14$RailwaySystem__1_.ic" NAME="RailwaySystem (1) Coverage Results" MODIFIED="1581939082121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

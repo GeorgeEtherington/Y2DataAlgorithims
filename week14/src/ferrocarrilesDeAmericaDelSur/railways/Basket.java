@@ -83,5 +83,4 @@ public class Basket {
 		railway.delay();
 		return basketHasStone();
 	}
-
 }

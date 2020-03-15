@@ -61,7 +61,7 @@ public class ResourceSystem
      * be lower - see {@link BasicResourceManager#BasicResourceManager(Resource, int)}.)
      */
     public void addResource(String name,int maxUseages) {
-        managers.add(new ResourceManager(new Resource(name),maxUseages));
+        managers.add(new ComplexResourceManager(new Resource(name),maxUseages));
     }
     
     /**

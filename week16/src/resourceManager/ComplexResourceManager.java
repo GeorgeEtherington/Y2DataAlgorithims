@@ -1,6 +1,9 @@
 package resourceManager;
 
 import java.util.Random;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class ComplexResourceManager implements ResourceManager {
 
@@ -44,14 +47,19 @@ public class ComplexResourceManager implements ResourceManager {
      */
     private int usesLeft;
 
+    private int count;
+
+    private final Lock lock = new ReentrantLock();
+
+    private final Condition notFull = lock.newCondition();
+    private final Condition notEmpty = lock.newCondition();
     /**
      * Set the resource and initialise the numbers of waiting processes, and the number of users, to zero.
      * @param resource the resource managed by this manager
      * @param maxUses the maximum number of uses permitted for this manager's resource.
      * The actual number of uses permitted for the resource is set to a random value in the range (0,maxUses].
      */
-
-    private boolean condition;
+    ;
     public ComplexResourceManager(Resource resource,int maxUses) {
         this.resource = resource;
         for (int priority = 0; priority < NO_OF_PRIORITIES; priority++) {
@@ -116,16 +124,17 @@ public class ComplexResourceManager implements ResourceManager {
 
     @Override
     public void requestResource(int priority) throws ResourceError {
+        lock.lock();
           try {
-              while (numberWaiting[priority] == numberWaiting.length) wait();
-              numberWaiting[priority] = 2;
-              priority = (priority + 1) % numberWaiting.length;
-              numberOfUsers++;
-              //signal not full
+              while (count == numberWaiting.length) notFull.await();
+              numberWaiting[numberOfUsers] = priority;
+              numberOfUsers = (numberOfUsers + 1) % numberWaiting.length;
+              count++;
+              notEmpty.signal();
           } catch (InterruptedException e) {
               e.printStackTrace();
           } finally {
-              //unlock
+              lock.unlock();
           }
     }
 
@@ -153,18 +162,19 @@ public class ComplexResourceManager implements ResourceManager {
 
     @Override
     public int releaseResource() throws ResourceError {
-      //lock
+     lock.lock();
         try{
-          while(count == 0) wait();
-            int item = numberWaiting[usesLeft];
+          while(count == 0) notEmpty.await();
+            int priority = numberWaiting[usesLeft];
            usesLeft = (usesLeft+1)%numberWaiting.length;
-           usesLeft--;
-           //notFull.signal
-            return item;
+           count--;
+           notFull.signal();
+            return priority;
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }finally {
-            //unlock
+        } finally {
+            lock.unlock();
         }
+        return 0;
     }
 }

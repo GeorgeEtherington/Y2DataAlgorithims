@@ -24,24 +24,23 @@ public class Bolivia extends Railway {
      * This method currently does not provide any synchronisation to avoid two trains being in the pass at the same time.
      */
 	public void runTrain() throws RailwaySystemError {
-		Clock clock = getRailwaySystem().getClock();
-		Railway nextRailway = getRailwaySystem().getNextRailway(this); // find out from the railway system which is the other railway
-		while (!clock.timeOut()) {
-			choochoo(); // the non-critical section
-			getBasket().putStone(); // put a stone in your basket
-			// i.e. signal that you want to cross the pass
-			while (nextRailway.getBasket().hasStone()) { // if the other railway's basket has a stone in it
-				// i.e. the other railway wants to cross the pass
-				getBasket().takeStone(); // take the stone out of your basket
-				// i.e. give the other railway a chance to cross the pass
-				siesta(); // have a snooze
-				getBasket().putStone(); // put the stone back in your basket
-				// because you still want to cross the pass
+		Clock clock = getRailwaySystem().getClock(); //Get the clock
+		Railway nextRailway = getRailwaySystem().getNextRailway(this); //Get the next railway
+		while (!clock.timeOut()) { //whilst the clock is running
+			choochoo(); //move the train around the track until it reaches the pass
+			getBasket().putStone();//put the stone in the basket
+			while (nextRailway.getBasket().hasStone()) { //whilst the other basket has a stone
+				if (!getSharedBasket().hasStone()) {//check the turn
+					getBasket().takeStone(); //remove the stone from the basket
+					while (!getSharedBasket().hasStone()){ //when there is no stone in the shared basket
+						siesta(); //wait
+					}
+					getBasket().putStone(); //put the stone in the basket
+				}
 			}
-			crossPass(); // the critical section
-			getBasket().takeStone(); // take the stone out of your basket
-			// because you have now successfully crossed the pass
-			// and do not (currently) want to cross it again
+			crossPass(); //the critical section
+			getSharedBasket().takeStone();//set the turn
+			getBasket().takeStone();//take the stone from the basket
 		}
 	}
 }
